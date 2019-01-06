@@ -15,10 +15,6 @@ body {
     font-weight:inherit;
 }
 
-.markdown-section h1 {
-    
-}
-
 .markdown-section h2 {
     font-size: 1.4rem;
 }
@@ -35,7 +31,19 @@ body {
 
 .markdown-section blockquote p {
   font-weight:inherit;
-  
+}
+
+.markdown-section table{
+  font-weight:inherit;
+}
+
+.markdown-section td, .markdown-section th {
+    border: 1px solid #eee;
+    padding: 15px;
+}
+
+.markdown-section {
+    max-width:600px;
 }
 
 .sidebar {
@@ -43,12 +51,19 @@ body {
     padding: 40px 30px;
 }
 
-.markdown-section table{
-  
-  font-weight:inherit;
+.sidebar ul li.active>a{
+    color:#f36;
+    font-weight:inherit;
 }
 
-.markdown-section td, .markdown-section th {
-    border: 1px solid #eee;
-    padding: 20px;
+.content {
+    left: 200px;
+}
+
+.sidebar-toggle {
+    bottom: inherit; 
+}
+
+.sidebar-toggle span {
+    background-color: #f36;
 }
