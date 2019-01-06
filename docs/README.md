@@ -1,19 +1,16 @@
-# Headline
+## Onomsiology
+> how do you express X?
 
-> An awesome project.
+## Semasiology
+> what does the word X mean?
 
-## unga bunga
+### Correlation is not causation
 
-## lol
-### si
-#### si
-asdfsadfsadf
+## Fields
+> how things are related
 
-sadf
-asd
-fas
-> lol
-##### si
-### no
 
-## a
+### Information managemnt
+
+### Information sharing
+- Should not be an active action (Like button), should be passive by default, no maximize the the amount of outputs
