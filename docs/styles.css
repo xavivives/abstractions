@@ -1,0 +1,54 @@
+body {
+    color: #5e5234;
+    font-family: Montserrat, Open Sans, Lato ,sans-serif;
+  
+  
+}
+
+.anchor span {
+    color: #56544e;
+    font-weight:500
+}
+
+.markdown-section a {
+    color: #ff3366;
+    font-weight:inherit;
+}
+
+.markdown-section h1 {
+    
+}
+
+.markdown-section h2 {
+    font-size: 1.4rem;
+}
+
+.markdown-section h3 {
+    font-size: 1.1rem;
+}
+
+.markdown-section blockquote {
+    border-left: 3px solid #eee;
+    color: #999;
+   font-family: Montserrat Italic, Open Sans, Lato ,sans-serif;
+}
+
+.markdown-section blockquote p {
+  font-weight:inherit;
+  
+}
+
+.sidebar {
+    border: 1px;
+    padding: 40px 30px;
+}
+
+.markdown-section table{
+  
+  font-weight:inherit;
+}
+
+.markdown-section td, .markdown-section th {
+    border: 1px solid #eee;
+    padding: 20px;
+}
