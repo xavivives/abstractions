@@ -1,8 +1,6 @@
 body {
     color: #5e5234;
     font-family: Montserrat, Open Sans, Lato ,sans-serif;
-  
-  
 }
 
 .anchor span {
@@ -11,8 +9,13 @@ body {
 }
 
 .markdown-section a {
-    color: #ff3366;
-    font-weight:inherit;
+    color: inherit;
+    font-weight: inherit;
+    text-decoration-color: rgba(0, 0, 0, 0.3);
+}
+
+.markdown-section a:hover{
+    text-decoration-color: #f36;
 }
 
 .markdown-section h2 {
