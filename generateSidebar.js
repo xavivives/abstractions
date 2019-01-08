@@ -1,6 +1,8 @@
+const MarkdownIt = require('markdown-it');
 const ignore = require('ignore');
 // .* //everythin
-const ig = ignore().add(['*.*','!*.md', '!*/']);
+const ig = ignore().add(['node_modules','*.*','!*.md', '!*/']);
+const md = new MarkdownIt();
 
 var fs = require('fs');
 var path = require('path');
@@ -10,12 +12,18 @@ var walk = function (dir, done) {
         if (err) return done(err);
         var pending = list.length;
         if (!pending) return done(null, results);
-        list.forEach(function (file) {
-            if (!ig.ignores(file)) {
-                console.log(file);
+        list.forEach(function (fileName) {
+            if (!ig.ignores(fileName)) {
+               // console.log(fileName);
                 
+                let extension =  fileName.split('.').pop();
+                if(extension =='md')
+                    console.log(fileName)
+                else{
+                    console.log("folder", fileName)
+                }
 
-                file = path.resolve(dir, file);
+                let file = path.resolve(dir, fileName);
 
                 fs.stat(file, function (err, stat) {
                     if (stat && stat.isDirectory()) {
