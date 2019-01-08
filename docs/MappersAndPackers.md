@@ -1,7 +1,9 @@
 # Mappers & Packers
 
 From [Programmer's Stone](http://wiki.c2.com/?ProgrammersStone)
+
 [Mappers vs Packers](http://wiki.c2.com/?MappersVsPacker):
+
 > **Mapping** is the kind of learning you do when, after you pick up some information, you sit and think about it in an effort to simplify the way you think about it (i.e., simplify your mental map). Mappers are the world's great thinkers: they are the inventors, the scientists, those who think and control.
 
 > **Packing** is like mapping in that you collect information, but differs from mapping in that you don't have any particular desire to simplify your mental map. Packers are the world's great storehouses of memory: they are the storytellers, the historians, those who memorize and repeat.
