@@ -1,10 +1,10 @@
-# Projects ideas
-
-## Ether mixer
-- For eth/etc/dai and other erc20 by request
-- Have referral addresses
-- As API
-- Use its liquidity as exchanger
+## Todo
+- Write down current idea of the whole system
+  - Mapping/Organization
+  - Identity/Entity/Proofs
+  - Storage/avaibility/redundancy
+  - Global domain/ENS/IPNS
+  - Accessibility/sharability/encryption
 
 ## Nested Markdown
 - Google it first
@@ -17,7 +17,8 @@
 - Using double hash? `markdownText.md##Header2` and nestead hash? `markdownText.md#Header1##Header2`
 - Where does the title header belong?
 - Is just a concatanation
-## Documentation
+
+## Mind-mapping to Markdown
 - Tool to automatically split Markdown files into blobs based on headers and other tokenss 
 - Why?
   - Things are ovious once, but we forget, so we don't need to re-do the process
@@ -33,7 +34,7 @@
 - There is no "files" just "blobs" of data
 - File names are static ids. What changes are the headers (H1, h2), so we don't break links
 - Headers are the subject your are defining. Therefore the use of `it` refers to the header.
-- 
+- Readmes should only contain indexes
 - When to put links?
   - Anywhere were there is an uncommon or very explicit reference?
   - Every single time we use this word?
@@ -55,56 +56,7 @@
 - As a monetizable service
 - Using IPMM data format as structure
 - Embed btc/eth transaction
-  
-# Insights
+
 ## Projects focus
 - Define prcess for tacking them
 - Define project time-frame and scope beforehand
-## Polarized escalation
-- Polarization factor
-- Subtle escalation
-
-## Any information should have a source link
-
-## Meditation posture
-### Hands on the coxis join
-
-# To look
-- Open hands keyboard
-- Ghost in a shell movie
-- Eco project from Galicia. Econstrucción?
-- Working sitting
-- Workout to make stright/sittin back srong
-- My legs problems due of cross leg sitting
-- Kneeing vs cross-leg sitting
-- Set meditation habit before `exploration`
-- Personality types (enologia?) from Jordi
-- Meditation stoll. It can knee or cross-leg. Made as soft material only?
-- Ask for batteries at electric vehicle shops (bike-shops) and deixalleria
-- Sketchup files in github
-# Analize vocdoni
-
-# Vipassana
-## How to create habit
-- Group sittings
-- Gong
-- Anyware
-## Course
-- History
-- Food
-- Mental process types
- - Anaconda/Sangoku ball
- - Comenting as a show-man to keep the attention
-## How to communicate to parents
-- Wheel-chair accsibility
-- I need to first destill my understanding of the technique
-## Technique reminders
-## Essencials
-- Practice awerness and equanimity on daily situtaions
-- Use anapana to get focus
-- Vipassana is to rewire the sensation-reaction association
-- Create a habit of doing it. Better done than perfect (long)
-- Counting is no-good. It is easy because it uses the wording as focus point
-### Anapana
-## Liberation process eficiency
-## Destill my understanding of the technique

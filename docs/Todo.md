@@ -1,0 +1,12 @@
+- Open hands keyboard
+- Ghost in a shell movie
+- Eco project from Galicia. Econstrucción?
+- Working sitting
+- Workout to make stright/sitting back srong
+- My legs problems due of cross leg sitting
+- Kneeing vs cross-leg sitting
+- Set meditation habit before `exploration`
+- Personality types (enologia?) from Jordi
+- Meditation stoll. It can knee or cross-leg. Made as soft material only?
+- Ask for batteries at electric vehicle shops (bike-shops) and deixalleria
+- Sketchup files in github
