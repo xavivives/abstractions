@@ -12,7 +12,7 @@ From [Programmer's Stone](http://wiki.c2.com/?ProgrammersStone)
 || Mappers  | Packers  |
 |---|---|---|
 | [Jung's percieving funcion](https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator#Functions:_sensing/intuition_and_thinking/feeling) | Intuition (N) | Sensing (s) |
-| Caustion reasoning| [Correlation does not imply causation](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation) | [Questionable cause falacy](https://en.wikipedia.org/wiki/Questionable_cause)  |
+| Causation reasoning| [Correlation does not imply causation](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation) | [Questionable cause falacy](https://en.wikipedia.org/wiki/Questionable_cause)  |
 |[Reasoning method](https://www.youtube.com/watch?v=NV3sBlRgzTI)| First principles | Analogy |
 
 ### Others

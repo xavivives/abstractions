@@ -1,0 +1,2 @@
+- Could be assembled by Auria
+- Bike wheels. Different types of sizes and tires are available and are easy to get
