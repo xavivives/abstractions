@@ -4,36 +4,57 @@ const ignore = require('ignore')
 const ig = ignore().add(['node_modules', '*.*', '!*.md', '!*/'])
 const md = new MarkdownIt()
 
-var fs = require('fs')
-var path = require('path')
-var walk = function (dir, done) {
-    var results = []
-    fs.readdir(dir, function (err, list) {
-        if (err) return done(err)
-        var pending = list.length
-        if (!pending) return done(null, results)
+let fs = require('fs')
+let path = require('path')
+let walk = function (rootDirectory, currentDirectory, titleTransform, directoryTransform, level, done) {
+    level++
+
+    let results = []
+
+    fs.readdir(currentDirectory, function (err, list) {
+        if (err)
+            return done(err)
+
+        let pending = list.length
+
+        if (!pending)
+            return done(null, results)
+
         list.forEach(function (fileName) {
             if (!ig.ignores(fileName)) {
-                // console.log(fileName)
 
-                let extension = fileName.split('.').pop()
-                let filePath = path.resolve(dir, fileName)
-
-                if (extension == 'md')
-                    console.log(openAndGetFirstH1(filePath))
-                else {
-                    console.log("folder", fileName)
-                }
-
+            
+                let filePath = path.resolve(currentDirectory, fileName)
                 fs.stat(filePath, function (err, stat) {
+
+                   
+                    let relativePath = path.relative(rootDirectory, currentDirectory)
+                    
                     if (stat && stat.isDirectory()) {
-                        walk(filePath, function (err, res) {
+
+                        //is directory
+                        walk(rootDirectory, filePath, titleTransform, directoryTransform, level, function (err, res) {
+
                             results = results.concat(res)
-                            if (!--pending) done(null, results)
+                            if (!--pending)
+                                done(null, results)
                         })
+
+
                     } else {
+
+                        let extension = fileName.split('.').pop()
+
+                        if (extension == 'md') {
+                            let titleStr = openAndGetFirstH1(filePath)
+                            if (titleStr)
+                                results.push(filePath)
+                                    //titleTransform(titleStr, fileName, relativePath, level))
+                        }
+
                         results.push(filePath)
-                        if (!--pending) done(null, results)
+                        if (!--pending)
+                            done(null, results)
                     }
                 })
 
@@ -46,7 +67,7 @@ var walk = function (dir, done) {
 
 const openAndGetFirstH1 = function (markdownPath) {
     let str = fs.readFileSync(markdownPath, 'utf8')
-    var result = md.parse(str)
+    let result = md.parse(str)
 
     let nextIsTitle = false
 
@@ -61,8 +82,29 @@ const openAndGetFirstH1 = function (markdownPath) {
     return null
 }
 
-const done = function (err, results) {
-    console.log(err, results)
+const cloneString = function (str) {
+    let clone = JSON.parse(JSON.stringify(str));
+    console.log(clone, clone, clone)
+    return clone
 }
 
-walk(__dirname, done)
+const done = function (err, results) {
+    console.log("done",results)
+}
+
+const transformTitle = function (titleStr, fileName, relativePath, level) {
+    let mdToken = "- " + titleStr
+    //console.log(mdToken)
+    return mdToken
+}
+
+const transformDirectory = function (dirName, relativePath, level) {
+    let mdToken = '## ' + dirName
+    console.log(mdToken)
+    return mdToken
+}
+
+
+let rootDirectory = __dirname + "/docs"
+walk(rootDirectory, rootDirectory, transformTitle, transformDirectory, 0, done)
+
