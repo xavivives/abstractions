@@ -9,7 +9,7 @@ Out of need to calm myself down I've attempted several times to incorporate medi
 I did not have any preferred practice, nor that I understood what "meditation" meant.
 At that point meditation was just a way to calm down and clear the mind.
 
-If I have to recall a good resource, I'll point to [this document](https://www.dropbox.com/s/at1izzfovujp9xn/Vinay%20Gupta%20on%20Meditation.pdf?dl=0) by Vinnay Gupta. It gave me a comprehensive view about meditation and its practice, that 
+If I have to recall a good resource, I'll point to [this document](https://www.dropbox.com/s/at1izzfovujp9xn/Vinay%20Gupta%20on%20Meditation.pdf?dl=0) by Vinnay Gupta. It gave me view about meditation and its practice without the spiritual part that had pushed me awai previously.
 
 ### Interplanteary Mind-map
 While working on the Interplanetary Mind-map project with Dani, we kept comming to the conclusion that the process that we were in to understand and change how digital information is used could not be decoupled from the fundamental nature of the human mind. And more explorations went on that direction.
