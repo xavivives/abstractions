@@ -5,7 +5,7 @@ body {
 
 .anchor span {
     color: #56544e;
-    font-weight:500
+    font-weight:600;
 }
 
 .markdown-section {
@@ -25,11 +25,16 @@ body {
 }
 
 .markdown-section h2 {
-    font-size: 1.4rem;
+    font-size: 1.6em;
 }
 
 .markdown-section h3 {
-    font-size: 1.1rem;
+    font-size: 1.3em;
+}
+
+.markdown-section h4 {
+    font-size: 1em;
+    margin-bottom: -0.6em;
 }
 
 .markdown-section blockquote {
