@@ -35,7 +35,7 @@
   - The same idea is explained with multiple resolutions (more or less detail)
   - The Headers can be used to capture this hierchy
   - So the content of H3 is the same content of the H1 but with higher resolution
-  - 
+  - Can an H3 be understood without an H2? Can an H2 be understood without an H1?
 - There is no "files" just "blobs" of data
 - File names are static ids. What changes are the headers (H1, h2), so we don't break links
 - Headers are the subject your are defining. Therefore the use of `it` refers to the header.
