@@ -8,6 +8,12 @@ body {
     font-weight:500
 }
 
+.markdown-section {
+    max-width:600px;
+    letter-spacing: -0.02rem;
+    line-height: 1.2rem;
+}
+
 .markdown-section a {
     color: inherit;
     font-weight: inherit;
@@ -45,9 +51,6 @@ body {
     padding: 15px;
 }
 
-.markdown-section {
-    max-width:600px;
-}
 
 .sidebar {
     border: 1px;
