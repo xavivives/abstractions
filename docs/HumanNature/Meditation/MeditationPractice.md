@@ -94,7 +94,7 @@ By having an exclusive place for its practice you can easly ensure that it has e
 It is therefore important the "exclusive" part of it. If used for other practices (focus working) in may be occupied by others, not be tiddy...
 
 ### Anywhere
-I need to find ways to remind me of keeping the practice of `awareness` and `ecuanimity` on every-day situations.
+I need to find ways to remind me of keeping the practice of `awareness` and `equanimity` on every-day situations.
 Ideas:
 - Phone notifications
 - Stickers (in computer, phone, Orxata)
