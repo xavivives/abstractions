@@ -1,0 +1,2 @@
+- Only commit to a system that you can efficently re-create
+    - How much does it costs to to recover a lost computer?
