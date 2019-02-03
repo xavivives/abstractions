@@ -70,3 +70,6 @@
 ## The system
 ### Sharing
 Should not be an active action (Like button), should be passive by default, no maximize the the amount of outputs
+
+## People to interview
+- From Airtable

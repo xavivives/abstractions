@@ -1,0 +1,1 @@
+-VSCode liniting for nested-md and for nested definitions
