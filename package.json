@@ -7,6 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
+    "install": "npm i docsify-cli -g",
+    "run": "docsify serve docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
