@@ -4,6 +4,7 @@ It is part of my personal managment system. So it's not design specifically to f
 
 I'm using the acronym/mnemonic FALSE POW (Proof of Work) to remember the inputs
 I use an scale from `0` to `10` to evaluate each property.
+
 - `0` is the minimum acceptable
 - `10` is the potential maximum
 - All metrics have positive read (`10` is always positive and `0` is always negative)
@@ -20,7 +21,8 @@ I use an scale from `0` to `10` to evaluate each property.
 
 This are more long term insights
 
-`February 1st`
+`February 1st, 2019`
+
 - It's been a couple of weeks since the course.
 - I've been able to do one practice a day.
 - Except for today, all practice have been of `60min`
@@ -38,3 +40,27 @@ This are more long term insights
     - All stress is released
     - Mind is sharp
     - Recovery is needed
+
+`February 28th, 2019`
+
+- Switched to meditate after showering and workin out in the middle of the day.
+- Results were better but not much improvement could be seen
+- I haven't meditated in the last 4 days.
+  - Main excuse is business (not a real excuse)
+  - But it is combined with the fact that I feel less compelled with Vipassana aproach
+- While I agree with the fundamental logic of Vipassana, I don't think the practice is efficent enough
+  - What I got from the course is that most of the practice is about observing physical sensationsaround the body
+  - While I can understand how this will eventually bring extreme awereness it seems that I wouldmake much more sense to focus on mental sensation, thoughts, unresloved issues...
+- I've been reading Vinay's pdf again
+  - There are several insights there, but I'm just writtin about the ones regarding the practice, notthe motives.
+  - A key insight there is that common meditation practices are decendant from monastery practices
+    - Those are not meant to constantly face the reality of human nature (which I do).
+  - He optimize meditation for efficency, not for eventual removal of suffering.
+  - The practice is as follows (2x)
+    - Mantra meditation for focus (10min)
+    - Mental radio listening (10min). Listen to the log of your mind effortlessy..He compares this toVipassana, but I feel it is something different
+    - Sense bad feelings (10min) (emotions, anxiety). Try to feel them as hard as you can, soeventually you get to the root of its cause.
+  - Consistency is more important that get it right.
+- I'll try to start Vinay's practice
+  - This implies to change the metrics I use to get awareness of the process, but I can't deal with it now.
+  
